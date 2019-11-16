@@ -1,0 +1,16 @@
+{
+    "name": "com.neuecc.unirx",
+    "author": "Yoshifumi Kawai",
+    "displayName": "UniRx",
+    "description": "UniRx (Reactive Extensions for Unity) is a reimplementation of the .NET Reactive Extensions. The Official Rx implementation is great but doesn't work on Unity and has issues with iOS IL2CPP compatibility. This library fixes those issues and adds some specific utilities for Unity. Supported platforms are PC/Mac/Android/iOS/WebGL/WindowsStore/etc and the library. \n\nBlog for update info - https://medium.com/@neuecc\n\nSupport thread on the Unity Forums: Ask me any question - http://forum.unity3d.com/threads/248535-UniRx-Reactive-Extensions-for-Unity \n\nUniRx is Core Library (Port of Rx) + Platform Adaptor (MainThreadScheduler/FromCoroutine/etc) + Framework (ObservableTriggers/ReactiveProeperty/etc) + async/await integration(UniRx.Async)",
+    "unity": "2018.3",
+    "version": "6.2.2",
+    "keywords": [
+        "rx",
+        "unirx"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/neuecc/UniRx.git"
+    }
+}
